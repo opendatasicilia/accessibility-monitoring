@@ -21,7 +21,7 @@ accessibility-declarations/
 │   └── enti.csv - Elenco degli enti pubblici monitorati
 │
 └── scripts/
-    └── monitoring-declarations_v2.sh - Script principale per il monitoraggio delle dichiarazioni
+    └── monitoring-declarations.sh - Script principale per il monitoraggio delle dichiarazioni
 ```
 
 ### Descrizione delle cartelle e dei file:
@@ -32,11 +32,11 @@ accessibility-declarations/
   - `enti.csv`: Elenco completo degli enti pubblici soggetti al monitoraggio
 
 - **scripts/**: Contiene gli script utilizzati per il processo di monitoraggio
-  - `monitoring-declarations_v2.sh`: Script principale che si occupa della raccolta e dell'analisi delle dichiarazioni di accessibilità
+  - `monitoring-declarations.sh`: Script principale che si occupa della raccolta e dell'analisi delle dichiarazioni di accessibilità
 
 ## Come funziona
 
-Il monitoraggio delle dichiarazioni di accessibilità viene eseguito automaticamente dallo script `monitoring-declarations_v2.sh`, che:
+Il monitoraggio delle dichiarazioni di accessibilità viene eseguito automaticamente dallo script `monitoring-declarations.sh`, che:
 
 1. Recupera l'elenco degli enti pubblici dall'indice della Pubblica Amministrazione (IPA) `enti.csv`
 2. Per ciascun ente, controlla la presenza della dichiarazione di accessibilità
