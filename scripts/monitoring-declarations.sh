@@ -9,7 +9,7 @@ URL_CSV_ANAGRAFICA_COMUNI="https://raw.githubusercontent.com/opendatasicilia/com
 PATH_CSV_ANAGRAFICA_COMUNI="data/comuni.csv"
 
 # Configurazione della parallelizzazione - modificare in base alle risorse disponibili
-MAX_CONCURRENT_JOBS=8  # Numero massimo di connessioni contemporanee
+MAX_CONCURRENT_JOBS=5  # Numero massimo di connessioni contemporanee
 
 # scarica ipa e anagrafica comuni
 curl -skL "$URL_CSV_ENTI_IPA" > $PATH_CSV_ENTI_IPA
@@ -20,7 +20,6 @@ echo "Scaricati i dati anagrafica comuni"
 # join con i dati anagrafica comuni pro_com_t di anagrafica è codice_comune_istat di ipa usa mlr
 mlr --csv join -f $PATH_CSV_ENTI_IPA -j codice_comune_istat -l Codice_comune_ISTAT -r pro_com_t $PATH_CSV_ANAGRAFICA_COMUNI |\
     mlr --csv rename Codice_natura,codice_natura,Codice_IPA,codice_ipa,Denominazione_ente,denominazione_ente,Codice_comune_ISTAT,codice_comune_istat,Sito_istituzionale,url then \
-    filter '$den_reg == "Sicilia"' then \
     filter '$codice_natura == 2430' then  \
     cut -f codice_ipa,denominazione_ente,codice_comune_istat,url then \
     case -l -f url then \
@@ -28,6 +27,12 @@ mlr --csv join -f $PATH_CSV_ENTI_IPA -j codice_comune_istat -l Codice_comune_IST
 
 echo "Uniti i dati IPA con i dati anagrafica comuni e filtrati per Sicilia e codice natura 2430"
 rm $PATH_CSV_ANAGRAFICA_COMUNI
+
+# ho rimosso filter '$den_reg == "Sicilia"' then \ prima di filter codice natura
+# to do: 
+# - aggiungere shuffle/sample
+# - evitare join se non si usa filtro.
+# - evitare di creare n file, appendere i csv con `>>`
 
 # Funzione per gestire i job paralleli
 run_parallel() {
