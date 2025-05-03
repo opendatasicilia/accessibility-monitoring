@@ -11,7 +11,7 @@ calinkx() {
     fi
 
     curl -skL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" "$url" |\
-        scrape -be "//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'cessibilit')]" |\
+        scrape -be "//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'cessibilit') or contains(., 'form.agid.gov')]" | \
         xq -c '
         def extract_text($obj):
         if $obj|type == "string" then $obj
