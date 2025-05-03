@@ -15,7 +15,7 @@ balinkx() {
     (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
     --log-level=3 \
     --dump-dom "$url" |\
-    scrape -be "//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ccessibilit')]" |\
+    scrape -be "//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'cessibilit')]" |\
     xq -c '
     def extract_text($obj):
     if $obj|type == "string" then $obj
