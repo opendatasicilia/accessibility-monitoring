@@ -1,6 +1,19 @@
 #!/bin/bash
 
 # balinkx è un tool (browser based) per estrarre i link di accessibilità da un sito web
+#
+# DESCRIZIONE:
+# Questo script utilizza Chrome in modalità headless per accedere a un sito web
+# e cercare link relativi all'accessibilità.
+#
+# UTILIZZO:
+#   balinkx <url>
+#
+# CODICI DI USCITA:
+#   0 - Successo: Trovati link di accessibilità
+#   1 - Errore: URL mancante o non valido
+#   2 - Errore: Impossibile accedere al sito web
+#   3 - Avviso: Nessun link di accessibilità trovato sul sito
 
 balinkx() {
     local url="$1"
@@ -66,4 +79,5 @@ balinkx() {
 # Se lo script viene eseguito direttamente (non sourced), esegui la funzione con gli argomenti forniti
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     balinkx "$@"
+    exit $?
 fi

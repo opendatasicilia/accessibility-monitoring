@@ -5630,3 +5630,192 @@ codice_comune_istat,idPubblicazione,dataUltimaModifica,specs_version,compliance_
 031014,e057c12f-fc0e-42a3-ad91-4a43d38fe4f3,2023-06-20T08:39:29.214Z,wcag-21,compliant,,other,k-pax,0,0,
 078157,6c149180-7660-11ef-996e-218f6bd6560f,2024-09-19T08:22:19.539Z,wcag-21,partially-compliant,true,other,Kend,21,14,
 030037,fab75830-951b-11ef-b372-5b7e796b8ca4,2024-10-28T10:58:48.494Z,wcag-21,compliant,false,other,K-PAX,0,0,
+001025,3c4d4300-7fd6-11ef-9297-7f70cd90f853,2024-10-01T09:19:08.013Z,wcag-21,compliant,false,other,DOTNETNUKE,0,0,Bibiana
+001064,df3bac40-809f-11ef-911a-5f7ab1c1c025,2024-10-02T09:09:32.676Z,wcag-21,partially-compliant,true,other,NUVOLA,0,0,Castagneto Po
+001099,3dfc38f0-f8df-11ef-830d-0d7ee6e26f06,2025-03-04T09:58:26.323Z,wcag-21,partially-compliant,false,other,Nuvola,1,0,Druento
+001144,e919a840-fc9a-11ee-aec1-bd4a7d500ecc,2024-04-17T09:14:26.418Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Marentino
+001178,28bce5d0-e78c-11ee-a1c1-83f54749d9b6,2024-03-21T14:05:53.426Z,wcag-21,partially-compliant,reason-42004,other,Nuvola,0,0,Pancalieri
+001213,d355b471-f862-44e6-906f-bc8ad29f513e,2023-10-31T13:05:15.164Z,wcag-21,partially-compliant,reason-42004,other,Nuvola,0,0,Rivalba
+001226,46990fa0-8252-11ef-9505-6f77e7cc4619,2024-10-04T13:11:47.811Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Rorà
+001229,9c9ba910-ecef-11ee-a097-1b4880e829d3,2024-03-28T10:43:34.368Z,wcag-21,compliant,false,other,NUVOLA,0,0,Rubiana
+001242,d6ab37d0-75aa-11ef-942d-03af3b0d9989,2024-09-18T10:43:00.137Z,wcag-21,partially-compliant,,other,Nuvola,0,0,San Germano Chisone
+001250,22d4ea61-cfcc-43fd-a7bc-28690460e6df,2023-09-18T09:06:28.280Z,wcag-21,compliant,,other,DOTNETNUKE,0,1,San Pietro Val Lemina
+001255,2a5d643d-1875-48cd-aae2-d88a67fc82bf,2022-09-28T13:31:16.046Z,wcag-21,compliant,,other,DotNetNuke,0,0,Sant'Ambrogio di Torino
+001257,75404f10-23e0-11ef-a63b-19212821bb99,2024-06-06T08:39:04.246Z,wcag-21,partially-compliant,true,other,NUVOLA,2,0,Santena
+001303,3dbcb9c0-b91e-11ee-94a7-eb19933706ba,2024-01-22T12:03:13.716Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Villar Dora
+001304,052eccb0-e533-11ee-a1c2-adeb58b16c28,2024-03-18T14:18:23.157Z,wcag-21,compliant,false,other,NUVOLA,0,0,Villareggia
+002015,0b6bc7a0-7042-11ef-80e3-6b07d5aace0c,2024-09-11T13:30:15.007Z,wcag-21,compliant,false,other,Nuvola,0,0,Borgo d'Ale
+002016,88e638b0-6128-11ef-b321-558357f82096,2024-08-23T08:13:40.041Z,wcag-21,partially-compliant,false,other,Nuvola,4,1,Borgosesia
+002047,c646cf90-f0cf-11ee-a149-13b83b4d9457,2024-04-02T08:59:52.743Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Costanzana
+002052,391832a0-9fdd-11ee-8f43-710da66be930,2023-12-21T08:44:45.234Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Crova
+002059,44be12d0-71a3-11ef-bd70-49402acee2ed,2024-09-13T07:32:40.313Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Formigliana
+002093,616064b0-f7e6-11ee-8309-bfcbe17b6784,2024-04-11T09:30:04.665Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Pezzana
+002152,7c644820-fbc5-11ee-9a09-559303a48a4b,2024-04-16T07:46:46.806Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Valduggia
+003060,470e6a50-75a7-11ef-bd60-1be39d808d42,2024-09-18T10:17:11.415Z,wcag-21,partially-compliant,reason-42004,other,Nuvola,0,0,Divignano
+003098,97211d94-d014-4386-a7d9-45faa2a7e954,2023-03-31T12:34:07.608Z,wcag-20,compliant,,other,Comweb,0,0,Miasino
+003119,7c3dd7c0-6c3c-11ef-90e6-c9085ee863bf,2024-09-06T10:39:59.490Z,wcag-21,compliant,false,other,Nuvola ,0,0,Pisano
+004007,a1b304e0-9b35-11ee-aa0d-7bc582add539,2023-12-15T10:34:58.446Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Arguello
+004008,c14f92df-5fc4-44d8-8865-19e8df192152,2020-09-23T07:22:46.876Z,wcag-21,compliant,,other,DOTNETNUKE,0,0,Bagnasco
+004013,1a39d6e0-168e-11ef-a70b-e3858bd5572a,2024-05-20T09:48:17.121Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Barolo
+004014,22473360-cce6-11ee-bb52-333d64792a9b,2024-02-16T16:11:52.720Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Bastia Mondovì
+004028,57254430-74fe-11ef-876a-e7afd26067c5,2024-09-17T14:08:13.569Z,wcag-21,compliant,false,other,Nuvola,1,0,Boves
+004035,ced03ce0-71a9-11ef-ae60-53b921202c58,2024-09-13T08:25:49.309Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Camerana
+004038,08c2d200-e82a-11ee-a239-372569370581,2024-03-22T08:51:05.275Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Canosio
+004065,49711340-7a59-11ef-965a-bf2704034adf,2025-03-26T09:44:50.103Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Cervere
+004072,dbacbfe0-bfe4-41f5-a25a-8c9021f0c0ca,2024-09-23T09:30:35.388Z,wcag-21,partially-compliant,,other,DOTNETNUKE,0,0,Corneliano d'Alba
+004093,b6eb9266-82b6-4dd5-9be8-11f62ea1eb89,2023-08-01T13:28:19.288Z,wcag-21,partially-compliant,,other,NUVOLA,0,0,Gaiola
+004105,87ffa840-9e1f-4ca0-9717-ada3da8269e7,2022-10-06T07:43:15.295Z,wcag-21,compliant,,other,DotNetNuke,0,0,La Morra
+004139,69583a30-03ad-11ef-bfc9-41d69eea6e2d,2024-04-26T09:09:56.013Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Monterosso Grana
+004151,4efc3a90-9a78-11ee-8766-d3772d67223a,2023-12-14T11:57:23.781Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Niella Tanaro
+004164,fc223db0-ff25-11ef-ad05-5f13cb4907fc,2025-03-12T09:39:59.783Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Pezzolo Valle Uzzone
+004184,c6347b40-7501-11ef-af3c-05ba8f5a8d4a,2024-09-17T14:32:34.564Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Roascio
+004191,97184f63-8fec-4ea9-8708-05731e5649f4,2023-10-05T08:48:56.246Z,wcag-21,partially-compliant,,other,DOTNETNUKE,0,0,Roccasparvera
+004194,e6bf6f50-fcc0-11ee-ad1a-89f16f78612d,2024-04-17T13:46:24.433Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Roddi
+004195,7c7b2620-168d-11ef-b50e-7de78a1d8be9,2024-05-20T09:43:52.849Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Roddino
+004219,ec063200-92bc-11ee-9302-27a683d0382a,2024-10-10T10:18:32.011Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Serravalle Langhe
+004220,46386200-e080-11ee-a616-8b645e258b83,2024-03-12T14:53:12.667Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Sinio
+004224,c078c420-03a2-11ef-b3fd-e52c91cea987,2024-04-26T07:55:04.141Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Stroppo
+004226,d0122540-e5dc-11ee-9ff6-87fdcc4a7a66,2024-09-09T15:19:25.332Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Torre Bormida
+004229,71e89aa0-f714-11ee-8263-99e1b7817c18,2024-04-10T08:27:11.555Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Torresina
+004233,ea68dcc0-7729-11ef-817c-c9834f60fa61,2024-09-20T08:20:26.922Z,wcag-21,partially-compliant,true,other,CMSPNRR,0,0,Valdieri
+005008,ac1f8fad-bc92-4e63-9b3d-d9f658599d25,2022-09-21T09:00:43.753Z,wcag-20,partially-compliant,,none,,0,0,Belveglio
+005015,6a40ea90-d70d-11ee-8d62-a78ada629c99,2024-02-29T14:18:20.825Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Calosso
+005049,6a9ca110-935f-11ee-975c-732bc7113129,2024-09-21T21:12:29.795Z,wcag-21,compliant,false,other,NUVOLA,0,0,Cossombrato
+005055,3538d470-7848-11ef-87f6-5d951641f1eb,2024-09-21T18:34:45.874Z,wcag-21,compliant,false,other,Nuvola,0,0,Frinco
+005065,8f73422f-a8f1-4a9a-b334-978b59c3e77f,2023-09-21T11:00:41.172Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Mombaruzzo
+005081,151879b0-8a01-11ee-8490-6b0ddef32ae9,2023-11-23T13:05:57.451Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Olmo Gentile
+005086,530d6bd0-e510-11ee-bb6c-13a7c93ec42e,2024-03-18T10:14:03.518Z,wcag-21,partially-compliant,,other,NUVOLA,0,0,Piovà Massaia
+005089,2496b280-f252-11ee-9737-61e1f28f9238,2024-04-04T07:08:14.607Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Refrancore
+005101,ea3a1be0-8d33-11ef-9fb5-d344770ece42,2024-10-18T09:32:28.541Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,San Paolo Solbrito
+005114,071166f0-0afd-11f0-9477-6de73f7df838,2025-03-27T11:05:00.250Z,wcag-21,partially-compliant,true,other,nuvola,0,0,Viale
+005121,17193ad0-c9bf-11ee-a5f2-5782af65aa94,2024-02-12T15:54:54.171Z,wcag-21,partially-compliant,,other,NUVOLA,0,0,Montiglio Monferrato
+006017,fcb5a630-7740-11ef-b9e9-9b167ec726e1,2024-09-20T11:07:19.561Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Bistagno
+006033,22f58dd0-8924-11ee-b18d-3f64fd61e00c,2023-11-22T10:44:21.566Z,wcag-21,partially-compliant,false,other,NUVOLA,0,0,Carpeneto
+006041,effaf430-70d9-11ef-af7b-19dc275ef7ea,2024-09-12T07:34:30.834Z,wcag-21,partially-compliant,true,other,Nuvola,0,0,Casasco
+006066,074c3f38-ac10-45f5-b2f7-c9080ee5399e,2021-09-09T10:13:36.747Z,wcag-21,compliant,,other,ComWeb,0,0,Dernice
+006078,a58b4ff0-7695-11ef-8b5b-03a194a79d90,2024-09-19T14:38:09.039Z,wcag-21,partially-compliant,true,other,Nuvola,0,0,Gamalero
+006113,fffdc400-71a8-11ef-9dc1-09b052b1fb92,2024-09-13T08:20:06.547Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Murisengo
+006115,7f37a180-bc4d-11ee-a31b-6dcccc18bcf3,2024-01-26T13:18:59.676Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Occimiano
+006125,b07180a0-f7d4-11ee-927b-13679fa12b70,2024-04-11T07:23:16.495Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Pareto
+006138,cae47ab0-0a2e-11f0-a360-bd3866c1c883,2025-03-26T10:40:49.789Z,null,null,null,null,null,null,null,Pozzolo Formigaro
+006139,dbfac090-7021-11ef-9a1a-6974a0525d0d,2024-09-11T09:26:59.526Z,wcag-21,compliant,false,other,Nuvola,0,0,Prasco
+006159,ddfe94cf-7382-4d88-827d-6f2f320fbd4e,2023-10-16T13:36:37.849Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Serralunga di Crea
+096008,346d1650-79c4-11ef-b24a-8ba0837b1f89,2024-09-23T15:44:42.816Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Callabiana
+096014,225105ff-6a9f-45c7-8416-716fe60a573f,2023-09-12T13:47:51.391Z,wcag-21,compliant,,other,DOTNETNUKE,0,0,Casapinta
+096018,65cafd10-7993-11ef-a152-451d251c58ec,2024-09-23T15:03:55.395Z,wcag-21,compliant,false,other,NUVOLA,0,0,Cerrione
+096033,8516e0dc-6bd2-4b9a-b943-95a4ab30081b,2023-09-19T08:14:59.819Z,wcag-21,partially-compliant,,other,NUVOLA,0,0,Mezzana Mortigliengo
+096037,f1b07850-6ea8-11ef-9ea9-e7c906ddf57c,2024-09-09T12:42:03.726Z,wcag-21,partially-compliant,reason-42004,other,NUVOLA,0,0,Mottalciata
+096047,373785c0-e20a-11ee-b24c-37f817228c91,2024-03-14T13:50:02.696Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Ponderano
+096048,6763c360-764f-11ef-9465-072699e509f7,2024-09-19T06:13:45.006Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Portula
+096055,026fc5b0-eb73-11ee-be36-233198eda715,2024-03-26T13:15:58.739Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Rosazza
+096069,147a66cf-35ca-4413-a8ff-7b109acb904f,2023-09-01T06:55:02.847Z,wcag-21,partially-compliant,reason-42004,other,DOTNETNUKE,0,0,Torrazzo
+096075,02606020-04a9-11f0-938d-2b682a49a291,2025-03-19T10:00:28.836Z,wcag-21,compliant,false,other,NUVOLA,0,0,Veglio
+103045,ae1d41e0-79b1-11ef-bcee-b326a4bbaac2,2024-09-23T13:42:16.527Z,wcag-21,compliant,false,other,nuvola,0,0,Miazzina
+013059,ea082cef-647f-4d8c-b8e8-4dcfcdcb0f1b,2022-09-27T09:51:31.902Z,wcag-20,compliant,,other,municipium,0,0,Castelnuovo Bozzente
+013251,54aceda1-340e-41db-b656-8ce9de491fa9,2023-09-22T12:45:18.619Z,wcag-21,compliant,,other,MyCity,1,1,Colverde
+015038,f2d87060-1e81-11ef-8ec6-f3d67ed64eee,2024-05-30T12:39:30.452Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Buscate
+016099,68d9f020-7735-11ef-9e16-cb0bd17f46a0,2024-09-20T09:42:04.528Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Fino del Monte
+018022,672dfb90-d618-11ee-928f-93e2ececf347,2024-02-28T08:56:55.841Z,wcag-21,compliant,false,joomla,null,0,0,Breme
+018073,dcf7f1e0-71b9-11ef-9b82-d326718c85fe,2024-09-13T10:22:07.917Z,wcag-21,compliant,false,other,Nuvola,0,0,Godiasco Salice Terme
+018190,a02a75f0-f1a1-11ee-90ab-27f3ceef53d4,2024-04-03T10:00:13.883Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Zinasco
+020016,a9010870-0b03-11f0-b8c2-d76fb1409454,2025-03-27T12:04:22.593Z,null,null,null,null,null,null,null,Castellucchio
+020064,e858c2c0-0355-11f0-9892-1f240bf4843f,2025-03-17T17:29:36.110Z,null,null,null,null,null,null,null,Sustinente
+021089,d7cbd63c-17fa-4496-a746-8ba2e80cb6d0,2023-09-19T06:38:06.228Z,wcag-20,partially-compliant,,other,RIS Kommunal,1,0,Selva di Val Gardena
+021113,425190a0-9cda-11ef-b873-373b04ce8474,2024-11-07T07:30:45.713Z,wcag-21,partially-compliant,false,other,RIS Kommunal,0,0,Villabassa
+023040,af1290e0-742b-11ef-a338-49c6e7f84b60,2024-09-16T13:00:38.910Z,wcag-21,partially-compliant,reason-42004,other,Nuvola,4,0,Isola della Scala
+024083,66c6d6e0-0ea3-11ef-9129-17586d30de32,2024-05-10T07:57:08.852Z,wcag-21,partially-compliant,false,other,Nuvola,1,0,Quinto Vicentino
+028030,b1219260-7439-11ef-a550-b32b028278d1,2024-09-16T14:33:56.418Z,wcag-21,partially-compliant,true,other,Nuvola,1,1,Cervarese Santa Croce
+028043,d09920a0-e887-11ef-bf99-57fd9438bb42,2025-02-11T14:56:58.536Z,wcag-21,compliant,false,other,NUVOLA,0,0,Granze
+028070,5e2d81e0-7114-11ef-ac1d-a791a39eba17,2024-09-12T14:29:46.347Z,wcag-21,compliant,false,other,CMS Peopleweb - SISCOM,0,0,Pozzonovo
+030026,d5bbd1c0-7589-11ef-a029-1105c9a09962,2024-09-18T06:43:38.977Z,wcag-21,partially-compliant,false,other,K-pax,3,1,Cividale del Friuli
+030053,2dd50d80-174e-11ef-80e4-c5f43ed9c257,2024-05-21T08:42:50.181Z,wcag-21,partially-compliant,false,other,K-PAX - Regione FVG,0,0,Majano
+030062,6b56d2e0-1e94-11ef-b9e5-3d7eeac11006,2024-05-30T14:51:53.746Z,wcag-21,compliant,false,other,K-PAX Prodygis - Regione FVG/INSIEL,1,0,Mortegliano
+030072,fcb0b770-7730-11ef-ad54-096c0e0927f7,2024-09-20T09:14:47.664Z,wcag-21,compliant,false,other,K-PAX,0,0,Pasian di Prato
+032005,6795b300-0af3-11f0-b659-b7678aece44e,2025-03-27T10:06:25.453Z,null,null,null,null,null,null,null,Sgonico
+093012,5b188e20-7711-11ef-85ae-27f1f0ab11d9,2024-09-20T05:28:36.606Z,wcag-21,compliant,false,other,K-PAX,0,0,Cavasso Nuovo
+093019,acf3acb0-7695-11ef-bc7c-edcc3cb15cb6,2024-09-19T14:42:22.054Z,wcag-21,compliant,false,other,K-PAX,0,0,Erto e Casso
+093042,bb41ef50-770f-11ef-aab7-4381457066c5,2024-09-20T05:17:09.104Z,wcag-21,compliant,false,other,K-PAX,0,0,Sequals
+093053,196fef20-df83-11ee-a7d7-7b95ca219d16,2024-03-11T08:40:53.354Z,wcag-21,compliant,false,other,k-pax regione FVG,1,1,Valvasone Arzene
+008001,2c0aae70-7cbf-11ef-a273-ef6da927a1ac,2024-09-27T10:56:09.032Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Airole
+008015,2ef00400-50e1-11ef-ba91-37182db6ba75,2024-08-02T14:59:02.655Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Castel Vittorio
+008038,4b9e8ca0-bd2b-11ef-a40c-bb6e5306e61e,2024-12-18T10:27:53.140Z,wcag-21,partially-compliant,false,other,Nuvola,0,0,Olivetta San Michele
+008042,052e3960-ece7-11ee-aa24-4b2fb0ee7dd6,2024-03-28T09:36:02.462Z,null,null,null,null,null,null,null,Pieve di Teco
+008060,ce2042a0-80a3-11ef-95e0-bb688461411e,2024-10-02T09:50:30.136Z,wcag-21,partially-compliant,,other,Nuvola,0,0,Terzorio
+008061,9f80e920-7a51-11ef-82c0-3587fc839213,2024-09-24T08:47:06.983Z,wcag-21,partially-compliant,,other,nuvola,0,0,Triora
+008066,240e4b84-9776-4a4b-9e36-8a051d1dbb36,2023-05-17T13:20:17.137Z,wcag-21,partially-compliant,,other,nuvola,0,0,Vessalico
+009050,f3c0e470-ee85-11ee-8bf8-a314c602e26a,2024-03-30T11:07:19.326Z,null,null,null,null,null,null,null,Plodio
+053019,ce160540-0962-11f0-967c-1bc93396cd89,2025-03-25T10:14:19.624Z,null,null,null,null,null,null,null,Pitigliano
+041065,4fc22b4f-d012-4672-b0cd-656711ddd8a3,2022-09-29T09:17:09.544Z,wcag-21,compliant,,other,MyCity,1,2,Tavullia
+056004,37d05a20-259d-11f0-9cdd-7bcb50744dca,2025-04-30T08:25:50.565Z,wcag-21,partially-compliant,true,other,"CMS Proprietario , EG - eGovernment Halley realizzato da Halley informatica",1,1,Barbarano Romano
+056032,c904f040-74c8-11ef-be0c-451e0452a2fd,2024-09-17T07:42:52.448Z,wcag-21,compliant,false,none,null,0,0,Latera
+056047,70cbef54-5a3e-4ae9-b171-ea7692649e95,2023-09-25T07:33:16.090Z,wcag-20,partially-compliant,,other,mave +++,0,0,San Lorenzo Nuovo
+058042,71260910-7728-11ef-88b0-29d596544e9d,2024-09-20T08:04:23.503Z,wcag-21,compliant,false,other,Municipium (Maggioli),1,1,Genazzano
+058116,16333a10-74c5-11ef-87c7-099041ad268b,2024-09-17T07:18:37.437Z,wcag-21,compliant,false,other,Strapi (MuniMS),7,7,Ladispoli
+059031,381a5000-0bb5-11f0-9691-f3345ce20070,2025-03-28T09:07:08.078Z,wcag-21,partially-compliant,true,other,KEND,0,0,Spigno Saturnia
+066010,850b62b0-7a46-11ef-b8f5-d7088035630a,2024-09-24T07:23:58.630Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Barrea
+067005,43de52c0-6b64-11ef-972d-c91772c8daac,2024-09-05T08:48:03.639Z,wcag-21,partially-compliant,true,other,ACTAGOV2,1,1,Basciano
+067006,cb49d410-0141-11ef-b9b8-bb13df7f4870,2024-04-23T07:07:42.622Z,wcag-21,compliant,false,other,Actagov2,2,0,Bellante
+067010,d0dcc3a0-7668-11ef-a148-9fdd4e5e8643,2024-09-19T09:19:27.923Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Castel Castagna
+067014,ba764170-79ad-11ef-bd9c-818f0583225c,2024-09-23T13:14:06.682Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Castilenti
+067017,9f0b5670-b9df-11ee-8559-35357fb0b2c8,2024-01-23T11:04:58.486Z,wcag-21,compliant,false,other,Actagov,0,0,Civitella del Tronto
+067020,3e261cd0-7732-11ef-9f15-596c04badc97,2024-09-20T09:24:55.451Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Controguerra
+067026,fcf14f1a-76e4-41a7-8ce6-ad2c3c1d1112,2022-09-20T15:28:30.904Z,wcag-21,partially-compliant,reason-42004,other,Personalizzato,1,0,Isola del Gran Sasso d'Italia
+067037,5ba26ae0-74dd-11ef-813c-7f55fadda765,2024-09-17T10:08:34.812Z,wcag-21,partially-compliant,true,other,ATAGOV2,8,1,Roseto degli Abruzzi
+067038,30930f00-7a49-11ef-bc84-19a8f777607e,2024-09-24T07:46:57.427Z,wcag-21,partially-compliant,reason-42004,drupal,,0,0,Sant'Egidio alla Vibrata
+067042,5686dd50-fd89-11ee-ae36-9f4d00523e21,2024-04-18T13:36:01.546Z,wcag-21,compliant,false,other,Actagov2,0,0,Torano Nuovo
+067044,7b14d4e0-74ff-11ef-9db1-11a6a15e4b5b,2024-09-17T14:12:50.146Z,wcag-21,partially-compliant,true,other,ACTAGOV2,1,1,Tortoreto
+067045,20457cd0-7654-11ef-a097-a9c587a359d9,2024-09-19T06:55:01.947Z,wcag-21,partially-compliant,reason-42004,other,Personalizzato,0,0,Tossicia
+067046,cc649490-66a7-11ef-bbfc-715a85c27725,2024-08-30T08:08:54.071Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Valle Castellana
+068013,dfbdb5b0-7437-11ef-9ff8-37a077d26aa1,2024-09-16T14:22:36.885Z,wcag-21,partially-compliant,true,other,ACTAGOV2,0,0,Civitaquana
+068018,0591bbb0-6e84-11ef-965b-fb4551b2fc8c,2024-09-09T08:19:47.085Z,wcag-21,partially-compliant,true,other,ACTAGOV2,1,0,Elice
+070062,b2197e40-7a8c-11ef-8eeb-cfc432e1a33e,2024-09-24T15:44:38.488Z,wcag-21,compliant,false,other,Municipium,0,1,Salcito
+094016,8656f770-f71e-11ee-b683-b9a042123467,2024-04-10T09:39:43.073Z,wcag-20,partially-compliant,true,other,Proprietario di Halley Informatica S.r.l,0,0,Civitanova del Sannio
+061002,32bf0630-05b3-11f0-a5ee-03680520a32b,2025-03-20T17:43:35.377Z,wcag-21,compliant,false,joomla,null,0,0,Alife
+061004,cd033710-7996-11ef-8990-b9d6f0b74690,2024-09-23T10:29:48.114Z,wcag-21,partially-compliant,true,other,Kend,0,0,Arienzo
+061018,33bbbe90-dfc8-11ef-a7be-43b768a8c02a,2025-01-31T11:34:38.036Z,wcag-21,partially-compliant,true,other,KEND,0,0,Casagiove
+061027,0532fc70-d7d8-11ef-b88b-19489a11de03,2025-01-21T09:13:51.680Z,wcag-21,partially-compliant,true,other,Kend,3,3,Castel Volturno
+061060,2dcb5280-062d-11f0-87a5-3b82cb7f685f,2025-03-21T08:11:21.934Z,wcag-21,partially-compliant,true,other,KEND,0,0,Pignataro Maggiore
+061075,764392c0-190b-11f0-b3da-7d0a1612bb4a,2025-04-14T08:28:30.555Z,wcag-21,partially-compliant,true,other,KEND,1,1,San Felice a Cancello
+061086,749aa162-7d49-47c0-a968-e5559580adf3,2022-09-23T12:37:42.319Z,wcag-20,compliant,,joomla,,0,0,Sant'Angelo d'Alife
+061098,40714420-7989-11ef-8c4c-0d9f2ebbf3d1,2024-09-23T08:50:13.350Z,wcag-21,partially-compliant,true,other,Kend,0,0,Villa di Briano
+062001,a6878310-e229-11ef-a82f-cfe5e603e036,2025-02-03T12:17:55.931Z,wcag-21,partially-compliant,true,other,KEND,1,1,Airola
+062009,c2fced50-2c7b-11ef-b640-01170ec70fbb,2024-06-17T07:32:26.723Z,wcag-21,partially-compliant,true,other,Kend,0,0,Bonea
+062047,4b008110-3917-11ef-a2a2-43413ffea80c,2024-07-03T08:31:53.574Z,wcag-21,partially-compliant,true,other,Kend,0,0,Pannarano
+062057,0da9fc40-096b-11f0-89a4-194a29091646,2025-03-25T11:15:43.667Z,null,null,null,null,null,null,null,San Bartolomeo in Galdo
+063033,e277e700-1485-11f0-bae9-b9a662676cd1,2025-04-08T14:23:07.961Z,wcag-21,partially-compliant,true,other,KEND,0,0,Frattaminore
+063034,e81bcea0-03f6-11f0-a22f-db31d534f5a9,2025-03-18T12:45:38.794Z,wcag-21,partially-compliant,true,other,KEND,0,0,Giugliano in Campania
+063067,a1796880-7595-11ef-8bd1-f702a55c2b36,2024-09-18T08:04:37.928Z,wcag-21,partially-compliant,true,other,Kend,0,0,San Giorgio a Cremano
+064033,18b11540-8632-11ef-bbda-bf56df315b0e,2024-10-09T11:18:40.056Z,wcag-21,partially-compliant,true,other,Nuvola,0,0,Fontanarosa
+064055,c7f061c0-c65a-11ee-9362-ad838d0bb668,2024-02-08T08:14:12.165Z,wcag-21,partially-compliant,false,other,KEND,0,0,Montefredane
+064084,06367d80-be20-11ef-8dbf-5517f8a29a44,2024-12-19T15:37:59.890Z,wcag-21,partially-compliant,true,other,Kend,0,0,San Michele di Serino
+064109,409732a0-3912-11ef-838e-c9c37ad1365d,2024-07-03T07:55:23.896Z,wcag-21,partially-compliant,true,other,Kend,0,0,Torella dei Lombardi
+065021,cd6e2400-f28e-11ef-a5a6-17d66e4faded,2025-02-24T09:00:01.835Z,wcag-21,partially-compliant,true,other,KEND,0,0,Camerota
+065034,2a2ad430-0b04-11f0-93dd-65504efd3a00,2025-03-27T11:53:39.067Z,wcag-21,partially-compliant,true,other,KEND,0,0,Castel San Giorgio
+065041,37f3c3b0-fd4f-11ee-ba1d-952020e09968,2024-04-18T06:37:57.538Z,wcag-21,partially-compliant,true,other,kend,0,0,Cetara
+065115,cf7991b9-25b9-4bda-80a0-c9b4354407cf,2023-11-08T09:11:24.242Z,wcag-21,partially-compliant,reason-42004,other,Kend,0,0,Salento
+065120,5586b2f0-f658-11ee-b5f3-7ff16eb02774,2024-04-09T09:46:58.362Z,wcag-21,partially-compliant,true,other,KEND,0,0,San Gregorio Magno
+065135,75577320-0585-11f0-b241-a7f49e35a313,2025-03-20T12:11:07.768Z,null,null,null,null,null,null,null,Sarno
+065157,e9572940-4a74-11ef-b16e-7b09b5d52eb4,2024-07-25T10:53:13.930Z,wcag-21,partially-compliant,true,other,Kend,1,1,Vietri sul Mare
+076003,f06bb969-c42b-4289-8691-daa83a9f5dfd,2023-09-21T12:16:51.901Z,wcag-21,partially-compliant,,other,DotNetNuke,0,0,Albano di Lucania
+076004,343cb580-fd57-11ee-834b-ff6e8f7bd0a0,2024-04-18T07:37:26.067Z,wcag-21,partially-compliant,true,other,KEND,0,0,Anzi
+076010,fffb2c23-9a51-4d1a-9253-940e1ff100f2,2022-04-04T14:31:05.387Z,wcag-20,compliant,,other,Kend,0,0,Baragiano
+076018,1afafdd0-2a33-11ef-9f84-f5c88a162541,2024-06-14T09:41:53.019Z,wcag-21,partially-compliant,true,other,Kend,0,0,Cancellara
+076026,42458dc0-0921-11ef-9eb0-1d4bb10dc2c9,2024-05-03T07:38:06.425Z,wcag-21,partially-compliant,false,other,KEND,1,0,Castronuovo di Sant'Andrea
+076038,f6ff0d20-24b7-11ef-ba99-8767345af736,2024-06-07T10:17:46.150Z,wcag-21,partially-compliant,true,other,KEND,0,0,Guardia Perticara
+076078,af40b2b0-e1e4-11ee-92ae-516c5a170a40,2024-03-14T09:18:06.881Z,wcag-21,partially-compliant,true,other,KEND,1,0,San Severino Lucano
+076083,e099de0d-88ec-4044-8621-2b4264c05bdb,2023-03-30T15:20:09.357Z,null,null,null,null,null,null,null,Satriano di Lucania
+076097,1f3428f0-b52a-11ee-bdc4-3da155a1de8c,2024-01-17T11:19:19.937Z,wcag-21,partially-compliant,true,other,kend,1,1,Viggianello
+077009,c4f1e340-2112-11f0-8834-6f621fcdd24d,2025-04-24T13:43:01.830Z,wcag-21,partially-compliant,true,other,KEND,0,0,Garaguso
+077017,aab20ad0-19b3-11ef-b31c-4d92ffdc5491,2024-05-24T09:49:44.949Z,wcag-21,partially-compliant,true,other,KEND,0,0,Montescaglioso
+077022,c46c1e50-21b2-11ef-bd1d-5fe68c4a7afc,2024-06-03T14:04:15.130Z,wcag-21,partially-compliant,true,other,Kend,0,0,Pomarico
+077026,e757eb37-f06c-4540-b71a-683f759785f0,2023-11-07T08:32:25.635Z,wcag-21,partially-compliant,reason-42004,other,kend,0,0,San Mauro Forte
+078100,7cf89130-b928-11ef-9fe2-c7da285a2409,2024-12-13T07:53:32.294Z,wcag-21,compliant,false,other,Nuvola,0,0,Plataci
+082002,89eb6b80-ec2b-11ee-8852-8ba4f8ea7611,2024-03-27T11:08:50.300Z,null,null,null,null,null,null,null,Alimena
+082068,3ddf1570-f590-11ee-ac0b-3d472cc82bbf,2024-04-08T09:57:16.810Z,wcag-21,compliant,false,other,ActaGOV,0,0,Sciara
+083104,70b2c930-dc7a-11ee-bbe9-8de8b82bca38,2024-03-07T11:59:41.978Z,wcag-21,compliant,false,other,Nuvola,0,0,Venetico
+089012,42849a60-174a-11ef-b899-058fbeec02c0,2024-05-21T08:03:21.233Z,wcag-21,partially-compliant,true,other,KEND,0,0,Melilli
+095012,5e095590-79bb-11ef-bf81-63af6ae8ac8a,2024-09-23T14:45:01.581Z,wcag-21,partially-compliant,true,other,Nuvola,0,0,Baressa
+111037,a023c650-f296-11ef-aebf-af19011d2086,2025-02-24T10:00:31.277Z,wcag-21,partially-compliant,true,other,Nuvola,0,0,Las Plassas
+111038,33c8c9d4-3f0a-4edc-9198-abc0818cc600,2023-09-22T12:04:42.628Z,wcag-21,compliant,,joomla,,0,0,Lunamatrona
+111053,da9853c0-7008-11ef-82cf-f398f990c8a0,2024-09-11T06:41:14.220Z,wcag-21,partially-compliant,reason-42004,joomla,,0,0,Pauli Arbarei
+111092,6eceba20-65e6-11ef-a580-bb6350e7dcba,2024-08-29T09:08:13.287Z,wcag-21,partially-compliant,reason-42004,joomla,,0,0,Turri
