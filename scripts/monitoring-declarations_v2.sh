@@ -181,14 +181,16 @@ echo "Scaricati i dati anagrafica comuni"
 # join con i dati anagrafica comuni pro_com_t di anagrafica è codice_comune_istat di ipa usa mlr
 mlr --csv join -f $PATH_CSV_ENTI_IPA -j codice_comune_istat -l Codice_comune_ISTAT -r pro_com_t $PATH_CSV_ANAGRAFICA_COMUNI |\
     mlr --csv rename Codice_natura,codice_natura,Codice_comune_ISTAT,codice_comune_istat,Sito_istituzionale,url then \
-    filter '$den_reg == "Sicilia"' then \
-    filter '$codice_natura == 2430' then  \
+    filter '$url != "" && $codice_natura == 2430' then  \
     cut -f comune,codice_comune_istat,url then \
     case -l -f url then \
     put 'if (!($url =~ "^https?://")) {$url = "https://" . $url}' > $PATH_CSV_ENTI_IPA.tmp && mv $PATH_CSV_ENTI_IPA.tmp $PATH_CSV_ENTI_IPA
 
 echo "Uniti i dati IPA con i dati anagrafica comuni e filtrati per Sicilia e codice natura 2430"
 rm $PATH_CSV_ANAGRAFICA_COMUNI
+
+# rimuovo filtro sicilia
+# filter '$den_reg == "Sicilia"' then \
 
 # debug
 # <$PATH_CSV_ENTI_IPA mlr --csv shuffle | head -n 5 > $PATH_CSV_ENTI_IPA.tmp && mv $PATH_CSV_ENTI_IPA.tmp $PATH_CSV_ENTI_IPA
