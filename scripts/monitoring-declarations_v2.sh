@@ -121,11 +121,26 @@ process_comune_url() {
             echo "$refs" | mlr --j2c put -s codice=$codice '$codice_comune_istat = @codice' > data/accessibility_urls-$codice.csv
         else
             # Se calinkx fallisce, prova balinkx
-            if refs=$(balinkx "$url" 2>/dev/null); then
-                echo "$refs" | mlr --j2c put -s codice=$codice '$codice_comune_istat = @codice' > data/accessibility_urls-$codice.csv
-            else
-                echo "Nessun riferimento trovato per: $url"
+            balinkx_result=$(balinkx "$url" 2>/dev/null)
+            balinkx_exit=$?
+            
+            if [ $balinkx_exit -eq 0 ]; then
+                # Successo: Trovati link di accessibilità
+                echo "$balinkx_result" | mlr --j2c put -s codice=$codice '$codice_comune_istat = @codice' > data/accessibility_urls-$codice.csv
+            elif [ $balinkx_exit -eq 2 ]; then
+                # Errore: Impossibile accedere al sito web
+                echo "Sito non raggiungibile: $url"
+                echo $(date +"%Y-%m-%d %H:%M:%S"),$codice,$url >> "$PATH_CSV_UNREACHABLE_SITES"
+                return 1
+            elif [ $balinkx_exit -eq 3 ]; then
+                # Avviso: Nessun link di accessibilità trovato sul sito
+                echo "Nessun riferimento di accessibilità trovato per: $url"
                 echo $(date +"%Y-%m-%d %H:%M:%S"),$codice,$url >> "$PATH_CSV_MISSING_ACCESSIBILITY_REFS"
+                return 1
+            else
+                # Altri errori (incluso codice 1 - URL mancante o non valido)
+                echo "Errore durante l'analisi del sito: $url"
+                echo $(date +"%Y-%m-%d %H:%M:%S"),$codice,$url >> "$PATH_CSV_UNREACHABLE_SITES"
                 return 1
             fi
         fi 
@@ -225,8 +240,8 @@ rm $PATH_CSV_ANAGRAFICA_COMUNI
 # rimuovo filtro sicilia
 # filter '$den_reg == "Sicilia"' then \
 
-# debug
-<$PATH_CSV_ENTI_IPA mlr --csv shuffle | head -n 11 > $PATH_CSV_ENTI_IPA.tmp && mv $PATH_CSV_ENTI_IPA.tmp $PATH_CSV_ENTI_IPA
+# force head for debug
+# <$PATH_CSV_ENTI_IPA mlr --csv shuffle | head -n 11 > $PATH_CSV_ENTI_IPA.tmp && mv $PATH_CSV_ENTI_IPA.tmp $PATH_CSV_ENTI_IPA
 
 total_urls=$(cat $PATH_CSV_ENTI_IPA | wc -l)
 total_urls=$((total_urls - 1)) # Subtract 1 for the header
@@ -236,11 +251,13 @@ echo "Starting parallel crawling of municipality websites..."
 <$PATH_CSV_ENTI_IPA mlr --csv --headerless-csv-output cut -f codice_comune_istat,url then shuffle | run_parallel $total_urls process_comune_url
 
 # double check missing
+echo "Starting double check for missing accessibility references..."
 total_urls=$(cat $PATH_CSV_MISSING_ACCESSIBILITY_REFS | wc -l)
 total_urls=$((total_urls - 1)) # Subtract 1 for the header
-mv $PATH_CSV_MISSING_ACCESSIBILITY_REFS $PATH_CSV_MISSING_ACCESSIBILITY_REFS.tmp && echo "timestamp,codice_comune_istat,url" > "$PATH_CSV_MISSING_ACCESSIBILITY_REFS"
+mv $PATH_CSV_MISSING_ACCESSIBILITY_REFS $PATH_CSV_MISSING_ACCESSIBILITY_REFS.tmp
+echo "timestamp,codice_comune_istat,url" > $PATH_CSV_MISSING_ACCESSIBILITY_REFS
 <$PATH_CSV_MISSING_ACCESSIBILITY_REFS.tmp mlr --csv --headerless-csv-output cut -f codice_comune_istat,url then shuffle | run_parallel $total_urls process_comune_url
-rm $PATH_CSV_MISSING_ACCESSIBILITY_REFS.tmp
+mv $PATH_CSV_MISSING_ACCESSIBILITY_REFS.tmp $PATH_CSV_MISSING_ACCESSIBILITY_REFS
 
 echo "Completed crawling municipality websites"
 

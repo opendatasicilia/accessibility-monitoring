@@ -30,12 +30,18 @@ balinkx() {
     (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
     --log-level=3 \
     --dump-dom \
-    --virtual-time-budget=5000 "$url" 2>/dev/null)
+    --virtual-time-budget=5000 --timeout=10000 "$url" 2>/dev/null)
     
     local chrome_exit=$?
     
     if [ $chrome_exit -ne 0 ] || [ -z "$html_content" ]; then
         echo "balinkx: Failed to access website: $url"
+        return 2
+    fi
+
+    # Privacy error
+    if printf '%s' "$html_content" | grep -q -i "<title>Privacy error</title>"; then
+        echo "balinkx: Privacy error accessing website: $url"
         return 2
     fi
     
@@ -66,10 +72,16 @@ balinkx() {
     | .[]' 2>/dev/null)
     
     local xq_exit=$?
-    
+
     if [ $xq_exit -ne 0 ]; then
-        echo "balinkx: No accessibility links found on website: $url"
-        return 3
+        # DOM valido ma nessun link trovato: curl conferma raggiungibilità?
+        if ! curl -sSI -f --max-time 5 "$url" >/dev/null; then
+            echo "balinkx: Failed to access website (TLS/HTTP error): $url"
+            return 2
+        else
+            echo "balinkx: No accessibility links found on website: $url"
+            return 3
+        fi
     else
         echo "$result"
         return 0
