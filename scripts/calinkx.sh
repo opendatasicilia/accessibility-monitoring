@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # alinkx è un tool per estrarre i link di accessibilità da un sito web
-# ATTENZIONE: da modificare. calinkx include  anche un translate in scrape che qui non c'è.
 
 calinkx() {
     local url="$1"
@@ -12,7 +11,7 @@ calinkx() {
     fi
 
     curl -skL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" "$url" |\
-        scrape -be "//a[contains(., 'cessibilit')]" 2>/dev/null |\
+        scrape -be "//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'cessibilit')]" |\
         xq -c '
         def extract_text($obj):
         if $obj|type == "string" then $obj
