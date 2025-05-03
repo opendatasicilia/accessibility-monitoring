@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# alinkx è un tool per estrarre i link di accessibilità da un sito web
+# balinkx è un tool (browser based) per estrarre i link di accessibilità da un sito web
 
 balinkx() {
     local url="$1"
@@ -16,7 +16,8 @@ balinkx() {
     --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 \
     (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
     --log-level=3 \
-    --dump-dom "$url" 2>/dev/null)
+    --dump-dom \
+    --virtual-time-budget=5000 "$url" 2>/dev/null)
     
     local chrome_exit=$?
     

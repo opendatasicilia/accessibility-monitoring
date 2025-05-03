@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# alinkx è un tool per estrarre i link di accessibilità da un sito web
+# calinkx è un tool (curl based) per estrarre i link di accessibilità da un sito web
 
 calinkx() {
     local url="$1"
