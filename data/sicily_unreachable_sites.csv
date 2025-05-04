@@ -1,2 +1,20 @@
-timestamp,codice_comune_istat,url
-2025-05-03 00:04:58,085018,https://www.comune.serradifalco.cl.it/serradifalco/hh/index.php
+codice_comune_istat,timestamp,url,comune,den_prov,sigla,den_reg,cod_reg
+082042,2025-05-03 23:31:36,https://www.comune.isnello.pa.it,Isnello,Palermo,PA,Sicilia,19
+083054,2025-05-03 23:48:13,https://www.monfortesangiorgio.me.it,Monforte San Giorgio,Messina,ME,Sicilia,19
+083059,2025-05-03 23:49:55,https://www.comune.mottadaffermo.me.it,Motta d'Affermo,Messina,ME,Sicilia,19
+083061,2025-05-03 23:48:09,https://www.comune.nizzadisicilia.me.it,Nizza di Sicilia,Messina,ME,Sicilia,19
+083095,2025-05-03 23:31:20,https://www.comunedisinagra.it,Sinagra,Messina,ME,Sicilia,19
+083097,2025-05-03 23:26:44,https://www.comune.taormina.me.it,Taormina,Messina,ME,Sicilia,19
+083101,2025-05-03 23:30:12,https://www.comunetusa.gov.it,Tusa,Messina,ME,Sicilia,19
+083107,2025-05-03 23:47:17,https://www.comunediacquedolci.it/,Acquedolci,Messina,ME,Sicilia,19
+083108,2025-05-03 23:27:01,https://http//www.comune.torrenova.me.it,Torrenova,Messina,ME,Sicilia,19
+084004,2025-05-03 23:51:26,https://www.comune.bivona.ag.it,Bivona,Agrigento,AG,Sicilia,19
+084012,2025-05-03 23:34:30,https://www.comune.casteltermini.ag.it,Casteltermini,Agrigento,AG,Sicilia,19
+084018,2025-05-03 23:39:20,https://www.comunedigrotte.it,Grotte,Agrigento,AG,Sicilia,19
+084039,2025-05-03 23:45:45,https://www.comune.santangelomuxaro.ag.it,Sant'Angelo Muxaro,Agrigento,AG,Sicilia,19
+085002,2025-05-03 23:42:41,https://www.comunebompensiere.it,Bompensiere,Caltanissetta,CL,Sicilia,19
+087025,2025-05-03 23:37:07,https://comunemilitello.it,Militello in Val di Catania,Catania,CT,Sicilia,19
+087044,2025-05-03 23:54:08,https://www.comune.sanpietroclarenza.ct.it,San Pietro Clarenza,Catania,CT,Sicilia,19
+087058,2025-05-03 23:46:21,https://www.comune.ragalna.ct-egov.it/,Ragalna,Catania,CT,Sicilia,19
+088004,2025-05-03 23:28:01,https://www.comunegiarratana.it,Giarratana,Ragusa,RG,Sicilia,19
+088006,2025-05-03 23:51:44,https://www.comunemodica.rg.it,Modica,Ragusa,RG,Sicilia,19
