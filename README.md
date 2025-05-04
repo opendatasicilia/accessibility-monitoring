@@ -4,7 +4,7 @@ Questo progetto implementa il monitoraggio dell'accessibilità per i siti web de
 
 ## Dichiarazioni di accessibilità
 
-Il progetto attualmente si concentra sul monitoraggio delle dichiarazioni di accessibilità che gli enti pubblici italiani sono obbligati a pubblicare. Le dichiarazioni vengono raccolte e analizzate automaticamente tramite lo script `monitoring-declarations_v2.sh`.
+Il progetto attualmente si concentra sul monitoraggio delle dichiarazioni di accessibilità che gli enti pubblici italiani sono obbligati a pubblicare. Le dichiarazioni vengono raccolte e analizzate automaticamente tramite lo script `monitoring-declarations.sh`.
 
 In futuro, il monitoraggio sarà esteso per includere anche la valutazione dell'accessibilità web (web accessibility evaluation) attraverso test automatizzati delle WCAG (Web Content Accessibility Guidelines).
 
