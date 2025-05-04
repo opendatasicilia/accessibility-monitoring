@@ -4,7 +4,7 @@ Questo progetto implementa il monitoraggio dell'accessibilità per i siti web de
 
 ## Dichiarazioni di accessibilità
 
-Il progetto attualmente si concentra sul monitoraggio delle dichiarazioni di accessibilità che gli enti pubblici italiani sono obbligati a pubblicare. Le dichiarazioni vengono raccolte e analizzate automaticamente tramite lo script `monitoring-declarations.sh`.
+Il progetto attualmente si concentra sul monitoraggio delle dichiarazioni di accessibilità che gli enti pubblici italiani sono obbligati a pubblicare. Le dichiarazioni vengono raccolte e analizzate automaticamente tramite lo script `monitoring_declarations.sh`.
 
 In futuro, il monitoraggio sarà esteso per includere anche la valutazione dell'accessibilità web (web accessibility evaluation) attraverso test automatizzati delle WCAG (Web Content Accessibility Guidelines).
 
@@ -21,7 +21,7 @@ accessibility-declarations/
 │   └── enti.csv - Elenco degli enti pubblici monitorati
 │
 └── scripts/
-    └── monitoring-declarations.sh - Script principale per il monitoraggio delle dichiarazioni
+    └── monitoring_declarations.sh - Script principale per il monitoraggio delle dichiarazioni
 ```
 
 ### Descrizione delle cartelle e dei file:
@@ -32,11 +32,11 @@ accessibility-declarations/
   - `enti.csv`: Elenco completo degli enti pubblici soggetti al monitoraggio
 
 - **scripts/**: Contiene gli script utilizzati per il processo di monitoraggio
-  - `monitoring-declarations.sh`: Script principale che si occupa della raccolta e dell'analisi delle dichiarazioni di accessibilità
+  - `monitoring_declarations.sh`: Script principale che si occupa della raccolta e dell'analisi delle dichiarazioni di accessibilità
 
 ## Come funziona
 
-Il monitoraggio delle dichiarazioni di accessibilità viene eseguito automaticamente dallo script `monitoring-declarations.sh`, che:
+Il monitoraggio delle dichiarazioni di accessibilità viene eseguito automaticamente dallo script `monitoring_declarations.sh`, che:
 
 1. Recupera l'elenco degli enti pubblici dall'indice della Pubblica Amministrazione (IPA) `enti.csv`
 2. Per ciascun ente, controlla la presenza della dichiarazione di accessibilità
